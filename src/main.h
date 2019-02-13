@@ -22,7 +22,7 @@ struct color_t {
 
 #define HEIGHT 800
 #define WIDTH 1000
-
+extern int camera_view,pxpos,pypos;
 // nonedit.cpp
 GLFWwindow *initGLFW(int width, int height);
 GLuint     LoadShaders(const char *vertex_file_path, const char *fragment_file_path);

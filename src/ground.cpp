@@ -6,7 +6,7 @@ Ground::Ground(float x, float y, color_t color) {
     this->rotation = 0;
     speed = 1;
     this->depth = 600.0f;
-    float d=10000.0;
+    double d=50000.0;
     // Our vertices. Three consecutive floats give a 3D vertex; Three consecutive vertices give a triangle.
     // A cube has 6 faces with 2 triangles each, so this makes 6*2=12 triangles, and 12*3 vertices
     static const GLfloat vertex_buffer_data[] = {
@@ -19,8 +19,8 @@ Ground::Ground(float x, float y, color_t color) {
         -d,-depth,d,
 
     };
-
-    this->object = create3DObject(GL_TRIANGLES, 2*3, vertex_buffer_data, COLOR_RED, GL_FILL);
+    color_t cc = {24, 85, 255};
+    this->object = create3DObject(GL_TRIANGLES, 2*3, vertex_buffer_data, cc, GL_FILL);
 }
 
 void Ground::draw(glm::mat4 VP) {

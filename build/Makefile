@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master
+CMAKE_SOURCE_DIR = /home/anchit/Sem4/Graphics/Assignment2/3dgame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/build
+CMAKE_BINARY_DIR = /home/anchit/Sem4/Graphics/Assignment2/3dgame/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/build/CMakeFiles /home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles /home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,33 @@ src/ball.s: src/ball.cpp.s
 src/ball.cpp.s:
 	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/ball.cpp.s
 .PHONY : src/ball.cpp.s
+
+src/checkpoint.o: src/checkpoint.cpp.o
+
+.PHONY : src/checkpoint.o
+
+# target to build an object file
+src/checkpoint.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/checkpoint.cpp.o
+.PHONY : src/checkpoint.cpp.o
+
+src/checkpoint.i: src/checkpoint.cpp.i
+
+.PHONY : src/checkpoint.i
+
+# target to preprocess a source file
+src/checkpoint.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/checkpoint.cpp.i
+.PHONY : src/checkpoint.cpp.i
+
+src/checkpoint.s: src/checkpoint.cpp.s
+
+.PHONY : src/checkpoint.s
+
+# target to generate assembly for a file
+src/checkpoint.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/checkpoint.cpp.s
+.PHONY : src/checkpoint.cpp.s
 
 src/color.o: src/color.cpp.o
 
@@ -312,6 +339,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/missile.o: src/missile.cpp.o
+
+.PHONY : src/missile.o
+
+# target to build an object file
+src/missile.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/missile.cpp.o
+.PHONY : src/missile.cpp.o
+
+src/missile.i: src/missile.cpp.i
+
+.PHONY : src/missile.i
+
+# target to preprocess a source file
+src/missile.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/missile.cpp.i
+.PHONY : src/missile.cpp.i
+
+src/missile.s: src/missile.cpp.s
+
+.PHONY : src/missile.s
+
+# target to generate assembly for a file
+src/missile.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/missile.cpp.s
+.PHONY : src/missile.cpp.s
+
 src/nonedit.o: src/nonedit.cpp.o
 
 .PHONY : src/nonedit.o
@@ -393,6 +447,33 @@ src/plane.cpp.s:
 	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/plane.cpp.s
 .PHONY : src/plane.cpp.s
 
+src/rings.o: src/rings.cpp.o
+
+.PHONY : src/rings.o
+
+# target to build an object file
+src/rings.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/rings.cpp.o
+.PHONY : src/rings.cpp.o
+
+src/rings.i: src/rings.cpp.i
+
+.PHONY : src/rings.i
+
+# target to preprocess a source file
+src/rings.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/rings.cpp.i
+.PHONY : src/rings.cpp.i
+
+src/rings.s: src/rings.cpp.s
+
+.PHONY : src/rings.s
+
+# target to generate assembly for a file
+src/rings.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/rings.cpp.s
+.PHONY : src/rings.cpp.s
+
 src/timer.o: src/timer.cpp.o
 
 .PHONY : src/timer.o
@@ -420,6 +501,33 @@ src/timer.cpp.s:
 	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/timer.cpp.s
 .PHONY : src/timer.cpp.s
 
+src/volcano.o: src/volcano.cpp.o
+
+.PHONY : src/volcano.o
+
+# target to build an object file
+src/volcano.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/volcano.cpp.o
+.PHONY : src/volcano.cpp.o
+
+src/volcano.i: src/volcano.cpp.i
+
+.PHONY : src/volcano.i
+
+# target to preprocess a source file
+src/volcano.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/volcano.cpp.i
+.PHONY : src/volcano.cpp.i
+
+src/volcano.s: src/volcano.cpp.s
+
+.PHONY : src/volcano.s
+
+# target to generate assembly for a file
+src/volcano.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/volcano.cpp.s
+.PHONY : src/volcano.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -435,6 +543,9 @@ help:
 	@echo "... src/ball.o"
 	@echo "... src/ball.i"
 	@echo "... src/ball.s"
+	@echo "... src/checkpoint.o"
+	@echo "... src/checkpoint.i"
+	@echo "... src/checkpoint.s"
 	@echo "... src/color.o"
 	@echo "... src/color.i"
 	@echo "... src/color.s"
@@ -450,6 +561,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/missile.o"
+	@echo "... src/missile.i"
+	@echo "... src/missile.s"
 	@echo "... src/nonedit.o"
 	@echo "... src/nonedit.i"
 	@echo "... src/nonedit.s"
@@ -459,9 +573,15 @@ help:
 	@echo "... src/plane.o"
 	@echo "... src/plane.i"
 	@echo "... src/plane.s"
+	@echo "... src/rings.o"
+	@echo "... src/rings.i"
+	@echo "... src/rings.s"
 	@echo "... src/timer.o"
 	@echo "... src/timer.i"
 	@echo "... src/timer.s"
+	@echo "... src/volcano.o"
+	@echo "... src/volcano.i"
+	@echo "... src/volcano.s"
 .PHONY : help
 
 

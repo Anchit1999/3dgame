@@ -1,22 +1,22 @@
 #include "main.h"
 
-#ifndef PLANE_H
-#define PLANE_H
+#ifndef VOLCANO
+#define VOLCANO
 
 
-class Plane {
+class Volcano {
 public:
-    Plane() {}
-    Plane(float x, float y,float z, color_t color);
+    Volcano() {}
+    Volcano(float x, float y,float z, color_t color);
     glm::vec3 position,rotation;
     void draw(glm::mat4 VP);
     void set_position(float x, float y);
     void tick();
     double speed,len,speedz,speedy;
 private:
-    VAO *object,*wings;
+    VAO *ground;
     VAO *body;
-    VAO *front;
+    VAO *top;
 };
 
 #endif // BALL_H

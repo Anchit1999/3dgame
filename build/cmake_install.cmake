@@ -1,4 +1,4 @@
-# Install script for directory: /home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master
+# Install script for directory: /home/anchit/Sem4/Graphics/Assignment2/3dgame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

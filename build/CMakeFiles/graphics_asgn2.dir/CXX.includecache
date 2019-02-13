@@ -6,51 +6,61 @@
 
 #IncludeRegexTransform: 
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/Meters.cpp
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/Meters.cpp
 Meters.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/Meters.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/Meters.h
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/Meters.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/Meters.h
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/ball.cpp
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/ball.cpp
 ball.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/ball.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/ball.h
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/ball.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/ball.h
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/color.cpp
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/checkpoint.cpp
+checkpoint.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/checkpoint.h
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/ground.cpp
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/checkpoint.h
+main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
+
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/color.cpp
+main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
+
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/ground.cpp
 ground.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/ground.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/ground.h
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/ground.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/ground.h
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/indicator.cpp
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/indicator.cpp
 indicator.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/indicator.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/indicator.h
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/indicator.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/indicator.h
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/input.cpp
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/input.cpp
 iostream
 -
 cmath
@@ -70,25 +80,33 @@ glm/gtx/transform.hpp
 glm/gtc/matrix_transform.hpp
 -
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.cpp
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.cpp
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 timer.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/timer.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/timer.h
 ball.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/ball.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/ball.h
 plane.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/plane.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/plane.h
 ground.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/ground.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/ground.h
 Meters.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/Meters.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/Meters.h
 indicator.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/indicator.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/indicator.h
+rings.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/rings.h
+checkpoint.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/checkpoint.h
+missile.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/missile.h
+volcano.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/volcano.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 iostream
 -
 cmath
@@ -108,7 +126,17 @@ glm/gtx/transform.hpp
 glm/gtc/matrix_transform.hpp
 -
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/nonedit.cpp
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/missile.cpp
+missile.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/missile.h
+main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
+
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/missile.h
+main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
+
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/nonedit.cpp
 iostream
 -
 cmath
@@ -128,9 +156,9 @@ glm/gtx/transform.hpp
 glm/gtc/matrix_transform.hpp
 -
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/other_handlers.cpp
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/other_handlers.cpp
 iostream
 -
 cmath
@@ -150,23 +178,43 @@ glm/gtx/transform.hpp
 glm/gtc/matrix_transform.hpp
 -
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/plane.cpp
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/plane.cpp
 plane.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/plane.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/plane.h
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/plane.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/plane.h
 main.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/timer.cpp
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/rings.cpp
+rings.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/rings.h
+main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
+
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/rings.h
+main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
+
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/timer.cpp
 timer.h
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/timer.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/timer.h
 GLFW/glfw3.h
 -
 
-/home/anchit/Sem4/Graphics/Assignment2/graphics-boilerplate-master/src/timer.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/timer.h
+
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/volcano.cpp
+volcano.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/volcano.h
+main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
+
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/volcano.h
+main.h
+/home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.h
 

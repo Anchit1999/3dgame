@@ -16,7 +16,7 @@
 bool   cannon_keyboard_input = true;
 bool   drag_pan = false, old_cki;
 double drag_oldx = -1, drag_oldy = -1;
-
+int camera_view=0,pxpos=0,pypos=0;
 using namespace std;
 
 /* Executed when a regular key is pressed/released/held-down */
@@ -40,10 +40,10 @@ void keyboard(GLFWwindow *window, int key, int scancode, int action, int mods) {
         // }
     } else if (action == GLFW_PRESS) {
         switch (key) {
-        case GLFW_KEY_ESCAPE:
+            case GLFW_KEY_ESCAPE:
             quit(window);
             break;
-        default:
+            default:
             break;
         }
     }
@@ -52,36 +52,31 @@ void keyboard(GLFWwindow *window, int key, int scancode, int action, int mods) {
 /* Executed for character input (like in text boxes) */
 void keyboardChar(GLFWwindow *window, unsigned int key) {
     switch (key) {
-    case 'p':
-    case 'P':
+        case 'p':
+        case 'P':
         quit(window);
         break;
-    default:
+
+        case 'v':
+        case 'V':
+        camera_view = (camera_view + 1)%5;
+        default:
         break;
     }
 }
 
 /* Executed when a mouse button is pressed/released */
 void mouseButton(GLFWwindow *window, int button, int action, int mods) {
-    switch (button) {
-    case GLFW_MOUSE_BUTTON_LEFT:
-        if (action == GLFW_PRESS) {
-            // Do something
-            return;
-        } else if (action == GLFW_RELEASE) {
-            // Do something
-        }
-        break;
-    // case GLFW_MOUSE_BUTTON_RIGHT:
-    // if (action == GLFW_RELEASE) {
-    // rectangle_rot_dir *= -1;
-    // }
-    // break;
-    default:
-        break;
+    if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS) {
+        double xpos, ypos;
+        glfwGetCursorPos(window, &xpos, &ypos);
+        pxpos = xpos;
+        pypos = ypos;
     }
 }
 
 void scroll_callback(GLFWwindow *window, double xoffset, double yoffset) {
     // Do something
+    screen_zoom += yoffset;
+    cout << screen_zoom << endl;
 }
