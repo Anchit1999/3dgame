@@ -48,6 +48,8 @@ Rings::Rings(float x, float y,float z, color_t color) {
             vertex_buffer_data[9 * i + 8] = 0.0f;
         }
     }
+    this->width = this->height = r2;
+    this->depth = 0;
     this->object = create3DObject(GL_TRIANGLES, 2*N*3, vertex_buffer_data, color, GL_FILL);
 }
 
@@ -70,4 +72,11 @@ void Rings::tick() {
     // this->rotation += speed;
     // this->position.x -= speed;
     // this->position.y -= speed;
+}
+
+bounding_box_t Rings::bounding_box()
+{
+    float x = this->position.x, y = this->position.y, z = this->position.z;
+    bounding_box_t para = {x, y, z,this->width, this->height, this->depth};
+    return para;
 }

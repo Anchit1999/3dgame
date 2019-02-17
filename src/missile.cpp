@@ -79,6 +79,9 @@ Missile::Missile(float x, float y,float z,float r,float h,int type, color_t colo
     }
     color_t dd = {255,255,0};
     this->front = create3DObject(GL_TRIANGLES, N * 3, vertex_buffer_data2, dd, GL_FILL);
+
+    this->width = this->height = r;
+    this->depth = 3 * h / 4.0;
 }
 
 void Missile::draw(glm::mat4 VP)
@@ -109,7 +112,7 @@ void Missile::tick()
     if(this->type == 1)
     {
         this->position.z -= 30 * cos(this->rotation.y * M_PI/180.0) * cos(this->rotation.x * M_PI/180.0);
-        this->position.x -= 30 * sin(this->rotation.y * M_PI/180.0);
+        this->position.x -= 30 * sin(this->rotation.y * M_PI/180.0) * cos(this->rotation.x * M_PI/180.0);
         this->position.y += 15 * sin(this->rotation.x * M_PI/180.0);
     }
     else if(this->type == 2)
@@ -122,4 +125,13 @@ void Missile::tick()
 
     // this->position.x -= speed;
     // this->position.y -= speed;
+}
+
+bounding_box_t Missile::bounding_box()
+{
+    float x = this->position.x, y = this->position.y, z = this->position.z + this->h/4.0 * cos(this->rotation.y * M_PI/180.0) * cos(this->rotation.x * M_PI/180.0);
+    if(this->type == 3)
+        z = this->position.z + 3*this->h/4.0 * cos(this->rotation.y * M_PI/180.0) * cos(this->rotation.x * M_PI/180.0);
+    bounding_box_t ball = {x, y, z,this->width, this->height, this->depth};
+    return ball;
 }

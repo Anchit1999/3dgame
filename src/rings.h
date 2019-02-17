@@ -14,6 +14,8 @@ public:
     void tick();
     double speed,wd,hg,r1,r2;
     bool collision;
+    double width,height,depth;
+    bounding_box_t bounding_box();
 private:
     VAO *object;
 };

@@ -42,7 +42,9 @@ Volcano::Volcano(float x, float y,float z, color_t color)
         r,0,r,
         0,r,0,
     };
-
+    this->width = 2*r;
+    this->depth = 2*r;
+    this-> height = 5*r;
     // color_t cc = {222,184,135};
 
     GLfloat vertex_buffer_color[] = {
@@ -92,4 +94,11 @@ void Volcano::set_position(float x, float y)
 void Volcano::tick()
 {
 
+}
+
+bounding_box_t Volcano::bounding_box()
+{
+    float x = this->position.x, y = this->position.y, z = this->position.z;
+    bounding_box_t para = {x, y, z,this->width, this->height, this->depth};
+    return para;
 }

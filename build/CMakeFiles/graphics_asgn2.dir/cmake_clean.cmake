@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o"
+  "CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o"
+  "CMakeFiles/graphics_asgn2.dir/src/score.cpp.o"
   "CMakeFiles/graphics_asgn2.dir/src/nonedit.cpp.o"
   "CMakeFiles/graphics_asgn2.dir/src/main.cpp.o"
   "CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o"

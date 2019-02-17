@@ -13,6 +13,8 @@ public:
     void set_position(float x, float y);
     void tick();
     double speed,len,speedz,speedy;
+    double width,height,depth;
+    bounding_box_t bounding_box();
 private:
     VAO *ground;
     VAO *body;

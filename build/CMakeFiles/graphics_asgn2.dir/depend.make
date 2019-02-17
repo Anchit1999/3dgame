@@ -16,6 +16,10 @@ CMakeFiles/graphics_asgn2.dir/src/checkpoint.cpp.o: ../src/main.h
 CMakeFiles/graphics_asgn2.dir/src/color.cpp.o: ../src/color.cpp
 CMakeFiles/graphics_asgn2.dir/src/color.cpp.o: ../src/main.h
 
+CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o: ../src/fuel.cpp
+CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o: ../src/fuel.h
+CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o: ../src/main.h
+
 CMakeFiles/graphics_asgn2.dir/src/ground.cpp.o: ../src/ground.cpp
 CMakeFiles/graphics_asgn2.dir/src/ground.cpp.o: ../src/ground.h
 CMakeFiles/graphics_asgn2.dir/src/ground.cpp.o: ../src/main.h
@@ -30,13 +34,16 @@ CMakeFiles/graphics_asgn2.dir/src/input.cpp.o: ../src/main.h
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/Meters.h
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/ball.h
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/checkpoint.h
+CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/fuel.h
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/ground.h
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/indicator.h
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/main.h
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/missile.h
+CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/parachute.h
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/plane.h
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/rings.h
+CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/score.h
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/timer.h
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/volcano.h
 
@@ -50,6 +57,10 @@ CMakeFiles/graphics_asgn2.dir/src/nonedit.cpp.o: ../src/nonedit.cpp
 CMakeFiles/graphics_asgn2.dir/src/other_handlers.cpp.o: ../src/main.h
 CMakeFiles/graphics_asgn2.dir/src/other_handlers.cpp.o: ../src/other_handlers.cpp
 
+CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o: ../src/main.h
+CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o: ../src/parachute.cpp
+CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o: ../src/parachute.h
+
 CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o: ../src/main.h
 CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o: ../src/plane.cpp
 CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o: ../src/plane.h
@@ -57,6 +68,10 @@ CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o: ../src/plane.h
 CMakeFiles/graphics_asgn2.dir/src/rings.cpp.o: ../src/main.h
 CMakeFiles/graphics_asgn2.dir/src/rings.cpp.o: ../src/rings.cpp
 CMakeFiles/graphics_asgn2.dir/src/rings.cpp.o: ../src/rings.h
+
+CMakeFiles/graphics_asgn2.dir/src/score.cpp.o: ../src/main.h
+CMakeFiles/graphics_asgn2.dir/src/score.cpp.o: ../src/score.cpp
+CMakeFiles/graphics_asgn2.dir/src/score.cpp.o: ../src/score.h
 
 CMakeFiles/graphics_asgn2.dir/src/timer.cpp.o: ../src/timer.cpp
 CMakeFiles/graphics_asgn2.dir/src/timer.cpp.o: ../src/timer.h

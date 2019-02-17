@@ -57,9 +57,81 @@ include CMakeFiles/graphics_asgn2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/graphics_asgn2.dir/flags.make
 
+CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
+CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o: ../src/fuel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/fuel.cpp
+
+CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/fuel.cpp > CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.i
+
+CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/fuel.cpp -o CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.s
+
+CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o.requires:
+
+.PHONY : CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o.requires
+
+CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o.provides: CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o.requires
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o.provides.build
+.PHONY : CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o.provides
+
+CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o.provides.build: CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o
+
+
+CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
+CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o: ../src/parachute.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/parachute.cpp
+
+CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/parachute.cpp > CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.i
+
+CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/parachute.cpp -o CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.s
+
+CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o.requires:
+
+.PHONY : CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o.requires
+
+CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o.provides: CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o.requires
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o.provides.build
+.PHONY : CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o.provides
+
+CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o.provides.build: CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o
+
+
+CMakeFiles/graphics_asgn2.dir/src/score.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
+CMakeFiles/graphics_asgn2.dir/src/score.cpp.o: ../src/score.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/score.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/score.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/score.cpp
+
+CMakeFiles/graphics_asgn2.dir/src/score.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn2.dir/src/score.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/score.cpp > CMakeFiles/graphics_asgn2.dir/src/score.cpp.i
+
+CMakeFiles/graphics_asgn2.dir/src/score.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn2.dir/src/score.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/score.cpp -o CMakeFiles/graphics_asgn2.dir/src/score.cpp.s
+
+CMakeFiles/graphics_asgn2.dir/src/score.cpp.o.requires:
+
+.PHONY : CMakeFiles/graphics_asgn2.dir/src/score.cpp.o.requires
+
+CMakeFiles/graphics_asgn2.dir/src/score.cpp.o.provides: CMakeFiles/graphics_asgn2.dir/src/score.cpp.o.requires
+	$(MAKE) -f CMakeFiles/graphics_asgn2.dir/build.make CMakeFiles/graphics_asgn2.dir/src/score.cpp.o.provides.build
+.PHONY : CMakeFiles/graphics_asgn2.dir/src/score.cpp.o.provides
+
+CMakeFiles/graphics_asgn2.dir/src/score.cpp.o.provides.build: CMakeFiles/graphics_asgn2.dir/src/score.cpp.o
+
+
 CMakeFiles/graphics_asgn2.dir/src/nonedit.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/nonedit.cpp.o: ../src/nonedit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/nonedit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/nonedit.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/nonedit.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/nonedit.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/nonedit.cpp.i: cmake_force
@@ -83,7 +155,7 @@ CMakeFiles/graphics_asgn2.dir/src/nonedit.cpp.o.provides.build: CMakeFiles/graph
 
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/main.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/main.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/main.cpp.i: cmake_force
@@ -107,7 +179,7 @@ CMakeFiles/graphics_asgn2.dir/src/main.cpp.o.provides.build: CMakeFiles/graphics
 
 CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o: ../src/plane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/plane.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/plane.cpp.i: cmake_force
@@ -131,7 +203,7 @@ CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o.provides.build: CMakeFiles/graphic
 
 CMakeFiles/graphics_asgn2.dir/src/missile.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/missile.cpp.o: ../src/missile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/missile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/missile.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/missile.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/missile.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/missile.cpp.i: cmake_force
@@ -155,7 +227,7 @@ CMakeFiles/graphics_asgn2.dir/src/missile.cpp.o.provides.build: CMakeFiles/graph
 
 CMakeFiles/graphics_asgn2.dir/src/ground.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/ground.cpp.o: ../src/ground.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/ground.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/ground.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/ground.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/ground.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/ground.cpp.i: cmake_force
@@ -179,7 +251,7 @@ CMakeFiles/graphics_asgn2.dir/src/ground.cpp.o.provides.build: CMakeFiles/graphi
 
 CMakeFiles/graphics_asgn2.dir/src/ball.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/ball.cpp.o: ../src/ball.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/ball.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/ball.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/ball.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/ball.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/ball.cpp.i: cmake_force
@@ -203,7 +275,7 @@ CMakeFiles/graphics_asgn2.dir/src/ball.cpp.o.provides.build: CMakeFiles/graphics
 
 CMakeFiles/graphics_asgn2.dir/src/indicator.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/indicator.cpp.o: ../src/indicator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/indicator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/indicator.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/indicator.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/indicator.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/indicator.cpp.i: cmake_force
@@ -227,7 +299,7 @@ CMakeFiles/graphics_asgn2.dir/src/indicator.cpp.o.provides.build: CMakeFiles/gra
 
 CMakeFiles/graphics_asgn2.dir/src/checkpoint.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/checkpoint.cpp.o: ../src/checkpoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/checkpoint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/checkpoint.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/checkpoint.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/checkpoint.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/checkpoint.cpp.i: cmake_force
@@ -251,7 +323,7 @@ CMakeFiles/graphics_asgn2.dir/src/checkpoint.cpp.o.provides.build: CMakeFiles/gr
 
 CMakeFiles/graphics_asgn2.dir/src/color.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/color.cpp.o: ../src/color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/color.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/color.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/color.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/color.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/color.cpp.i: cmake_force
@@ -275,7 +347,7 @@ CMakeFiles/graphics_asgn2.dir/src/color.cpp.o.provides.build: CMakeFiles/graphic
 
 CMakeFiles/graphics_asgn2.dir/src/volcano.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/volcano.cpp.o: ../src/volcano.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/volcano.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/volcano.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/volcano.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/volcano.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/volcano.cpp.i: cmake_force
@@ -299,7 +371,7 @@ CMakeFiles/graphics_asgn2.dir/src/volcano.cpp.o.provides.build: CMakeFiles/graph
 
 CMakeFiles/graphics_asgn2.dir/src/Meters.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/Meters.cpp.o: ../src/Meters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/Meters.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/Meters.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/Meters.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/Meters.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/Meters.cpp.i: cmake_force
@@ -323,7 +395,7 @@ CMakeFiles/graphics_asgn2.dir/src/Meters.cpp.o.provides.build: CMakeFiles/graphi
 
 CMakeFiles/graphics_asgn2.dir/src/other_handlers.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/other_handlers.cpp.o: ../src/other_handlers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/other_handlers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/other_handlers.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/other_handlers.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/other_handlers.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/other_handlers.cpp.i: cmake_force
@@ -347,7 +419,7 @@ CMakeFiles/graphics_asgn2.dir/src/other_handlers.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/graphics_asgn2.dir/src/rings.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/rings.cpp.o: ../src/rings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/rings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/rings.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/rings.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/rings.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/rings.cpp.i: cmake_force
@@ -371,7 +443,7 @@ CMakeFiles/graphics_asgn2.dir/src/rings.cpp.o.provides.build: CMakeFiles/graphic
 
 CMakeFiles/graphics_asgn2.dir/src/timer.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/timer.cpp.o: ../src/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/timer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/timer.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/timer.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/timer.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/timer.cpp.i: cmake_force
@@ -395,7 +467,7 @@ CMakeFiles/graphics_asgn2.dir/src/timer.cpp.o.provides.build: CMakeFiles/graphic
 
 CMakeFiles/graphics_asgn2.dir/src/input.cpp.o: CMakeFiles/graphics_asgn2.dir/flags.make
 CMakeFiles/graphics_asgn2.dir/src/input.cpp.o: ../src/input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/input.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/graphics_asgn2.dir/src/input.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn2.dir/src/input.cpp.o -c /home/anchit/Sem4/Graphics/Assignment2/3dgame/src/input.cpp
 
 CMakeFiles/graphics_asgn2.dir/src/input.cpp.i: cmake_force
@@ -419,6 +491,9 @@ CMakeFiles/graphics_asgn2.dir/src/input.cpp.o.provides.build: CMakeFiles/graphic
 
 # Object files for target graphics_asgn2
 graphics_asgn2_OBJECTS = \
+"CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o" \
+"CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o" \
+"CMakeFiles/graphics_asgn2.dir/src/score.cpp.o" \
 "CMakeFiles/graphics_asgn2.dir/src/nonedit.cpp.o" \
 "CMakeFiles/graphics_asgn2.dir/src/main.cpp.o" \
 "CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o" \
@@ -438,6 +513,9 @@ graphics_asgn2_OBJECTS = \
 # External object files for target graphics_asgn2
 graphics_asgn2_EXTERNAL_OBJECTS =
 
+graphics_asgn2: CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o
+graphics_asgn2: CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o
+graphics_asgn2: CMakeFiles/graphics_asgn2.dir/src/score.cpp.o
 graphics_asgn2: CMakeFiles/graphics_asgn2.dir/src/nonedit.cpp.o
 graphics_asgn2: CMakeFiles/graphics_asgn2.dir/src/main.cpp.o
 graphics_asgn2: CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o
@@ -455,7 +533,7 @@ graphics_asgn2: CMakeFiles/graphics_asgn2.dir/src/timer.cpp.o
 graphics_asgn2: CMakeFiles/graphics_asgn2.dir/src/input.cpp.o
 graphics_asgn2: CMakeFiles/graphics_asgn2.dir/build.make
 graphics_asgn2: CMakeFiles/graphics_asgn2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable graphics_asgn2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anchit/Sem4/Graphics/Assignment2/3dgame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable graphics_asgn2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graphics_asgn2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -463,6 +541,9 @@ CMakeFiles/graphics_asgn2.dir/build: graphics_asgn2
 
 .PHONY : CMakeFiles/graphics_asgn2.dir/build
 
+CMakeFiles/graphics_asgn2.dir/requires: CMakeFiles/graphics_asgn2.dir/src/fuel.cpp.o.requires
+CMakeFiles/graphics_asgn2.dir/requires: CMakeFiles/graphics_asgn2.dir/src/parachute.cpp.o.requires
+CMakeFiles/graphics_asgn2.dir/requires: CMakeFiles/graphics_asgn2.dir/src/score.cpp.o.requires
 CMakeFiles/graphics_asgn2.dir/requires: CMakeFiles/graphics_asgn2.dir/src/nonedit.cpp.o.requires
 CMakeFiles/graphics_asgn2.dir/requires: CMakeFiles/graphics_asgn2.dir/src/main.cpp.o.requires
 CMakeFiles/graphics_asgn2.dir/requires: CMakeFiles/graphics_asgn2.dir/src/plane.cpp.o.requires

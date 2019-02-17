@@ -6,7 +6,6 @@ CheckPoint::CheckPoint(float x, float y,float z, color_t color) {
     this->position = glm::vec3(x, y, 0);
     this->rotation = glm::vec3(0,0,0);
     speed = 1;
-    this->depth = 500.0f;
     // Our vertices. Three consecutive floats give a 3D vertex; Three consecutive vertices give a triangle.
     // A cube has 6 faces with 2 triangles each, so this makes 6*2=12 triangles, and 12*3 vertices
     GLfloat vertex_buffer_data[] = {
@@ -103,7 +102,7 @@ CheckPoint::CheckPoint(float x, float y,float z, color_t color) {
         -re,re,-re,
         -re,0,-re,
     };
-
+    this->width = this->height = this->depth = 2*re;
     this->enemy = create3DObject(GL_TRIANGLES, 12 * 3, vertex_buffer_data1, COLOR_BLACK, GL_FILL);
 
     int N = 100;
@@ -163,8 +162,8 @@ void CheckPoint::draw(glm::mat4 VP) {
     draw3DObject(this->cannon);
 }
 
-void CheckPoint::set_position(float x, float y) {
-    this->position = glm::vec3(x, y, 0);
+void CheckPoint::set_position(float x, float y,float z) {
+    this->position = glm::vec3(x, y, z);
 }
 
 void CheckPoint::tick() {
@@ -172,6 +171,14 @@ void CheckPoint::tick() {
     // this->position.x -= speed;
     // this->position.y -= speed;
 }
+
+bounding_box_t CheckPoint::bounding_box()
+{
+    float x = this->position.x, y = this->position.y, z = this->position.z;
+    bounding_box_t ball = {x, y, z,this->width, this->height, this->depth};
+    return ball;
+}
+
 
 Arrow::Arrow(float x, float y,float z, color_t color) {
     this->position = glm::vec3(x, y, z);
